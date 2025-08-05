@@ -1,0 +1,3146 @@
+[
+  {
+    "Codigo": "68008",
+    "Producto": "ALAS POLLO FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 2.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68128",
+    "Producto": "ALAS POLLO PARTIDA FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.2,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68080",
+    "Producto": "CHURRASCOS POLLO S/P S/H",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68081",
+    "Producto": "CHURRASCOS POLLO C/P S/H",
+    "Categoria": "",
+    "Precio": 4.85,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68002",
+    "Producto": "HIGADITOS DE POLLO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 2.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68011",
+    "Producto": "JAMONCITOS DE POLLO FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.4,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68003",
+    "Producto": "PECHUGA DE POLLO FRESCA ENTERA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68028",
+    "Producto": "PECHUGA DE POLLO FRESCA FILETEADA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.75,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68001",
+    "Producto": "POLLO PRIMERA FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 2.85,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68040",
+    "Producto": "POLLO TIPO ASADOR",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 2.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68090",
+    "Producto": "TRASEROS DE POLLO FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 2.59,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68169",
+    "Producto": "POLLO TROCEADO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68060",
+    "Producto": "TRASERO TROCEADO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 2.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68007",
+    "Producto": "MUSLO DE POLLO ANATÓMICO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.1,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68270",
+    "Producto": "PECHUGA TROCEADA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.75,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68023",
+    "Producto": "POLLO DESHUESADO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68015",
+    "Producto": "SANGRE",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 2.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68010",
+    "Producto": "CODORNICES FRESCAS (POR UNIDAD)",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 1.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68093",
+    "Producto": "SOLOMILLO DE POLLO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68034",
+    "Producto": "PECHUGA CON PIEL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.4,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68180",
+    "Producto": "PECHUGA CON PIEL CON ALAS",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68180",
+    "Producto": "PECHUGA CON CAPARAZON",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.1,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68044",
+    "Producto": "FILETE PECHUGA CORRAL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68042",
+    "Producto": "MUSLOS CORRAL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68043",
+    "Producto": "MUSLOS S/H CORRAL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 7.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68053",
+    "Producto": "POLLO CORRAL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.2,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68193",
+    "Producto": "PECHUGA CORRAL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 8.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68256",
+    "Producto": "TRASERO CORRAL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68030",
+    "Producto": "ESTOFADO PAVO FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 7.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68005",
+    "Producto": "PAVO CANAL FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68014",
+    "Producto": "PECHUGA PAVO FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 7.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68067",
+    "Producto": "PECHUGA PAVO FRESCA FILETEADA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 8.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41066",
+    "Producto": "KEBAB POLLO CONGELADO ROLLO 10KG",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.2,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41111",
+    "Producto": "KEBAB POLLO LONCHEADO FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 8.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "14044",
+    "Producto": "KEBAB TERNERA CONGELADO ROLLO 10KG",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63011",
+    "Producto": "CALDERETA CORDERO FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63005",
+    "Producto": "CARRET CORDERO FRESCO ENTERO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 17.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63039",
+    "Producto": "CHULETAS CORDERO FRESCAS",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 17.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63041",
+    "Producto": "CORDERO CANAL FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 12.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63016",
+    "Producto": "PALETILLA FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 14.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63032",
+    "Producto": "PICADA CORDERO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 18.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63003",
+    "Producto": "PIERNA CORDERO FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 14.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63012",
+    "Producto": "PIERNA CORDERO S/HUESO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 18.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63009",
+    "Producto": "CABRITO +6KG",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 17.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63009",
+    "Producto": "CABRITO +7KG",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 17.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63013",
+    "Producto": "CARRET LECHAL FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 24.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63001",
+    "Producto": "CORDERO LECHAL FRESCO DE 5 A 7",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 17.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63026",
+    "Producto": "PALETILLA CABRITO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 26.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63049",
+    "Producto": "CHULETAS CORDERO LECHAL",
+    "Categoria": "",
+    "Precio": 26.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63016",
+    "Producto": "PALETILLA LECHAL FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 27.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63027",
+    "Producto": "PIERNA CABRITO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 14.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63014",
+    "Producto": "PIERNA CORDERO LECHAL FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 14.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63040",
+    "Producto": "JARRETE DE CORDERO CON HUESO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 14.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63030",
+    "Producto": "HIGADO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63028",
+    "Producto": "LENGUA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63029",
+    "Producto": "MANOS",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63042",
+    "Producto": "MOLLEJAS DE CORDERO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 21.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63022",
+    "Producto": "RIÑONES",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63024",
+    "Producto": "CUELLO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 7.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63008",
+    "Producto": "COSTILLA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63047",
+    "Producto": "SOLOMILLO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 26.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63015",
+    "Producto": "CUNA CORDERO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 24.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68013",
+    "Producto": "CONEJO FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 6.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68058",
+    "Producto": "CONEJO FRESCO TROCEADO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65072",
+    "Producto": "CABEZAL CERDO S/H",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65026",
+    "Producto": "CABEZAL CERDO C/H",
+    "Categoria": "",
+    "Precio": 4.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65150",
+    "Producto": "FILETE DE CABEZAL S/H (CHURRASCO)",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.65,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65038",
+    "Producto": "CARNE PICADA CERDO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.45,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75159",
+    "Producto": "CARNE PICADA MIXTA CERDO Y TERNERA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 8.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65015",
+    "Producto": "CARRILLADA FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 9.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65029",
+    "Producto": "CHULETAS CABEZAL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65025",
+    "Producto": "CHULETAS CERDO FRESCAS",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65005",
+    "Producto": "CHULETERO CERDO FRESCO C/P",
+    "Categoria": "",
+    "Precio": 4.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65004",
+    "Producto": "CHULETERO CERDO FRESCO S/P",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65028",
+    "Producto": "CINTA CON CABEZAL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65075",
+    "Producto": "CINTA LOMO FRESCA ENTERA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.85,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65059",
+    "Producto": "CINTA LOMO FRESCA FILETEADA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.35,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65033",
+    "Producto": "COSTILLA CERDO FRESCA ENTERA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.4,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65121",
+    "Producto": "COSTILLA CORBATA FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65304",
+    "Producto": "COSTILLA TROZO TIRA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65033",
+    "Producto": "COSTILLA CARNUDA C/P",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65013",
+    "Producto": "COSTILLA CARNUDA S/P",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.4,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65009",
+    "Producto": "PALETA DE CERDO C/H",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65021",
+    "Producto": "JAMÓN CERDO FRESCO S/H",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65007",
+    "Producto": "JAMON CERDO FRESCO C/H",
+    "Categoria": "",
+    "Precio": 3.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65022",
+    "Producto": "JAMON CERDO FRESCO C/H/P",
+    "Categoria": "",
+    "Precio": 3.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65008",
+    "Producto": "FILETE JAMÓN FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65317",
+    "Producto": "JARRETE CERDO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65010",
+    "Producto": "PALETA CERDO FRESCA S/H",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.1,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65091",
+    "Producto": "SECRETO CERDO FRESCO BLANCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65006",
+    "Producto": "SOLOMILLO CERDO FRESCO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 7.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65024",
+    "Producto": "TROCEADA CERDO FRESCA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.1,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65157",
+    "Producto": "CABEZAL S/H TROCEADO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.75,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65214",
+    "Producto": "CADERA/BABILLA/TAPA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65030",
+    "Producto": "OREJAS",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65120",
+    "Producto": "CORAZÓN",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 2.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65020",
+    "Producto": "HIGADO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.3,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65017",
+    "Producto": "RIÑONES",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65023",
+    "Producto": "MANITAS DE CERDO",
+    "Categoria": "",
+    "Precio": 4.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65023",
+    "Producto": "MANITAS Y TROCEADA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65034",
+    "Producto": "PALETA CON PIEL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65011",
+    "Producto": "PANCETA CON PIEL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.45,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65012",
+    "Producto": "PANCETA SIN PIEL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65053",
+    "Producto": "PANCETA TROCEADA O TIRAS",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 5.85,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65018",
+    "Producto": "PAPADA CON PIEL",
+    "Categoria": "",
+    "Precio": 3.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65019",
+    "Producto": "PAPADA SIN PIEL",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65089",
+    "Producto": "HUESO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 0.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65095",
+    "Producto": "CODILLO DE JAMÓN S/P",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65205",
+    "Producto": "CODILLO DE JAMON C/P",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65032",
+    "Producto": "CODILLO PALETA",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 3.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65134",
+    "Producto": "PUNTA SOLOMILLO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 8.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68123",
+    "Producto": "ALAS POLLO BARBACOA",
+    "Categoria": "ELABORADOS",
+    "Precio": 2.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68121",
+    "Producto": "ALAS POLLO MORUNAS",
+    "Categoria": "ELABORADOS",
+    "Precio": 2.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68274",
+    "Producto": "ALBONDIGAS DE POLLO",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68146",
+    "Producto": "BROCHETAS DE POLLO",
+    "Categoria": "ELABORADOS",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68125",
+    "Producto": "CHURRASCO POLLO BARBACOA",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68196",
+    "Producto": "CHURRASCO POLLO MORUNO",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68106",
+    "Producto": "CRESTA POLLO FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68173",
+    "Producto": "FILETE POLLO EMPANADO",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68045",
+    "Producto": "FILETE DE POLLO MORUNO",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68292",
+    "Producto": "FILETE DE POLLO BARBACOA",
+    "Categoria": "",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68176",
+    "Producto": "LAGRIMITAS DE POLLO",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68009",
+    "Producto": "LONGANIZA POLLO FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68066",
+    "Producto": "PINCHITO DE POLLO PINCHADO (PRECIO KG)",
+    "Categoria": "",
+    "Precio": 6.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68137",
+    "Producto": "MINI PINCHITO DE POLLO",
+    "Categoria": "",
+    "Precio": 6.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68120",
+    "Producto": "PINCHITO POLLO FRESCO",
+    "Categoria": "ELABORADOS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68260",
+    "Producto": "FLAMENQUÍN DE POLLO",
+    "Categoria": "ELABORADOS",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65156",
+    "Producto": "SAN JACOBO DE POLLO",
+    "Categoria": "ELABORADOS",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68174",
+    "Producto": "ALBÓNDIGAS DE CERDO",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65131",
+    "Producto": "BROCHETAS DE CERDO",
+    "Categoria": "ELABORADOS",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65142",
+    "Producto": "CHURRASCO CERDO ALIÑADO",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65144",
+    "Producto": "CHURRASCO CERDO BARBACOA",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65126",
+    "Producto": "CINTA FILETE MORUNA",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12124",
+    "Producto": "COSTILLA CERDO TIRAS ALIÑADAS",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65086",
+    "Producto": "CRESTA CERDO FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75002",
+    "Producto": "LONGANIZA CERDO CRIOLLA FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75012",
+    "Producto": "LONGANIZA CERDO FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65138",
+    "Producto": "MASA DE CERDO FRESCO",
+    "Categoria": "ELABORADOS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65102",
+    "Producto": "PINCHITO CERDO FRESCO",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65201",
+    "Producto": "FLAMENQUÍN DE CERDO",
+    "Categoria": "ELABORADOS",
+    "Precio": 6.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65164",
+    "Producto": "SAN JACOBO DE DE CERDO",
+    "Categoria": "ELABORADOS",
+    "Precio": 6.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63037",
+    "Producto": "PINCHITO CORDERO FRESCO",
+    "Categoria": "ELABORADOS",
+    "Precio": 19.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63055",
+    "Producto": "PINCHITO CORDERO PINCHADO",
+    "Categoria": "",
+    "Precio": 19.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65046",
+    "Producto": "HAMBURGUESA CERDO FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68031",
+    "Producto": "HAMBURGUESA POLLO FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 5.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71018",
+    "Producto": "HAMBURGUESA DE VACA",
+    "Categoria": "ELABORADOS",
+    "Precio": 9.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "66099",
+    "Producto": "HAMBURGUESA MIXTA",
+    "Categoria": "ELABORADOS",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67144",
+    "Producto": "HAMBURGUESA AÑOJO FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71032",
+    "Producto": "HAMBURGUESA BUEY FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 12.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67070",
+    "Producto": "HAMBURGUESA ANGUS",
+    "Categoria": "ELABORADOS",
+    "Precio": 11.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67149",
+    "Producto": "HAMBURGUESA PICAÑA",
+    "Categoria": "ELABORADOS",
+    "Precio": 11.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "63038",
+    "Producto": "HAMBURGUESA CORDERO FRESCA",
+    "Categoria": "ELABORADOS",
+    "Precio": 18.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75086",
+    "Producto": "CONFIT DE PATO 12 UNIDADES",
+    "Categoria": "CARNES SELECTAS",
+    "Precio": 38.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75217",
+    "Producto": "FOIE DE PATO",
+    "Categoria": "CARNES SELECTAS",
+    "Precio": 39.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75085",
+    "Producto": "MAGRET",
+    "Categoria": "CARNES SELECTAS",
+    "Precio": 14.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41010,\"PATO TIPO PEKIN 2,1 KG UNIDAD\",CARNES SELECTAS,4.95",
+    "Producto": "nan",
+    "Categoria": "",
+    "Precio": NaN,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65047",
+    "Producto": "CHULETERO IBERICO S/C",
+    "Categoria": "CARNES SELECTAS",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65051",
+    "Producto": "CINTA DE LOMO",
+    "Categoria": "CARNES SELECTAS",
+    "Precio": 29.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67038",
+    "Producto": "AGUJA S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 11.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67028",
+    "Producto": "TAPA AÑOJO FRESCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67029",
+    "Producto": "BABILLA AÑOJO FRESCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67030",
+    "Producto": "CONTRA AÑOJO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67012",
+    "Producto": "CADERA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 11.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67129",
+    "Producto": "ENTRAÑA AÑOJO FRESCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67011",
+    "Producto": "CARNE PICADA AÑOJO FRESCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67032",
+    "Producto": "JARRETE AÑOJO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67062",
+    "Producto": "CHULETON AÑOJO FRESCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 15.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67035",
+    "Producto": "CHURRASCO AÑOJO FRESCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 8.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67035",
+    "Producto": "CHURRASCO (ASADO EN TIRAS)",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 8.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67128",
+    "Producto": "COSTILLA AÑOJO TROZO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 8.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67084",
+    "Producto": "COSTILLA TROCEADA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67085",
+    "Producto": "COSTILLAS CUADRO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "66004",
+    "Producto": "FALDA AÑOJO COMPLETA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 7.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67009",
+    "Producto": "FALDA AÑOJO S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67063",
+    "Producto": "PICAÑA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 11.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67031",
+    "Producto": "REDONDO AÑOJO FRESCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 11.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67036",
+    "Producto": "ENTRECOT DE AÑOJO CORTADO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 15.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "69004",
+    "Producto": "LOMO BAJO IRLANDES",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 26.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67034",
+    "Producto": "FILETE AÑOJO FRESCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 11.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67007",
+    "Producto": "LOMO DE AÑOJO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 13.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67060",
+    "Producto": "MATAHAMBRE",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67043",
+    "Producto": "VACIO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67003",
+    "Producto": "RIÑONADA AÑOJO COMPLETA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 11.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67122",
+    "Producto": "SOLOMILLO AÑOJO FRESCO +3",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 27.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67003",
+    "Producto": "RIÑONADA COMPLETA HEMBRA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 14.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67061",
+    "Producto": "T-BONE",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 17.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67006",
+    "Producto": "BOLA AÑOJO S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67023",
+    "Producto": "DELANTERO S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.85,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67076",
+    "Producto": "TROCEADA AÑOJO FRESCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 11.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67064",
+    "Producto": "RABILLO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 12.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "66120",
+    "Producto": "CORAZÓN",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 4.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "66006",
+    "Producto": "LENGUA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67041",
+    "Producto": "HIGADO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67024",
+    "Producto": "MANOS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 3.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67054",
+    "Producto": "OSOBUCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67151",
+    "Producto": "PITO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71041",
+    "Producto": "GRASA VACUNO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 1.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67024",
+    "Producto": "PATA DE AÑOJO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 3.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "66032",
+    "Producto": "HUESO TERNERA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 0.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67050",
+    "Producto": "TAPA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 13.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67049",
+    "Producto": "BABILLA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 13.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67152",
+    "Producto": "CADERA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 13.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67153",
+    "Producto": "REDONDO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 13.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67127",
+    "Producto": "RIÑONADA COMPLETA ANGUS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 19.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67053",
+    "Producto": "LOMO ALTO ANGUS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 27.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67143",
+    "Producto": "ENTRECOT ANGUS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 29.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "18",
+    "Producto": "CHULETON",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 26.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "66105",
+    "Producto": "SOLOMILLO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 36.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "19",
+    "Producto": "FILETE ANGUS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 16.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "69044",
+    "Producto": "FALDA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67154",
+    "Producto": "TIRA ASADOR ANGUS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 16.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70008",
+    "Producto": "BOLA C/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70009",
+    "Producto": "BOLA S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 14.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70010",
+    "Producto": "LOMO ALTO C/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 19.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70012",
+    "Producto": "LOMO ALTO S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 24.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70001",
+    "Producto": "RIÑONADA COMPLETA HEMBRA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 25.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70013",
+    "Producto": "RIÑONADA COMPLETA MACHO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 24.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70015",
+    "Producto": "LOMO BAJO S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 27.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70016",
+    "Producto": "ENTRECOT",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 29.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70020",
+    "Producto": "DELANTERO C/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70024",
+    "Producto": "TAPAS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 14.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70022",
+    "Producto": "BABILLAS S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 14.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70025",
+    "Producto": "REDONDO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 15.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70026",
+    "Producto": "CADERA CON RABILLO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 15.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70027",
+    "Producto": "JARRETE",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 12.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67145",
+    "Producto": "OSOBUCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 17.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67155",
+    "Producto": "CADERA NOVILLO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 15.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67148",
+    "Producto": "LOMO ARGENTINO ALTO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 34.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67147",
+    "Producto": "LOMO ARGENTINO BAJO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 34.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67156",
+    "Producto": "SOLOMILLO 3/4 LIBRAS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 31.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67146",
+    "Producto": "SOLOMILLO 4/5 LIBRAS",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 36.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70017",
+    "Producto": "TAPA BLANCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 17.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70018",
+    "Producto": "BABILLA BLANCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 17.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70019",
+    "Producto": "CADERA BLANCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 18.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70005",
+    "Producto": "CHULETON BLANCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 18.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70021",
+    "Producto": "ENTRECOT BLANCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 19.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70004",
+    "Producto": "LOMO CON HUESO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 16.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70019",
+    "Producto": "RABILLO CADERA BLANCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 16.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70028",
+    "Producto": "FILETE TERNERA BLANCA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 17.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71057",
+    "Producto": "SOLOMILLO BLANCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 29.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70014",
+    "Producto": "REDONDO BLANCO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 18.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "13009",
+    "Producto": "OSUBUCO BLANCO CONGELADO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 17.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70050",
+    "Producto": "LENGUA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "70051",
+    "Producto": "HIGADO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71007",
+    "Producto": "TAPA VACUNO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71038",
+    "Producto": "CARNE PICADA DE VACUNO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71009",
+    "Producto": "CADERA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71008",
+    "Producto": "BABILLA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71011",
+    "Producto": "REDONDO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71010",
+    "Producto": "CONTRA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "66023",
+    "Producto": "AGUJA",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 10.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71015",
+    "Producto": "LOMO ALTO S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 12.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71048",
+    "Producto": "LOMO BAJO S/H",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 14.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71020",
+    "Producto": "ENTRECOT",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 16.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "66123",
+    "Producto": "CHULETON",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 17.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71030",
+    "Producto": "RIÑONADA VACA COMPLETO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 17.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71047",
+    "Producto": "SOLOMILLO VACUNO +3",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 26.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71014,\"SOLOMILLO VACA +2,10\",CARNES DE RAZA,24.5",
+    "Producto": "nan",
+    "Categoria": "",
+    "Precio": NaN,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71046,\"SOLOMILLO VACA +2,5\",CARNES DE RAZA,25.5",
+    "Producto": "nan",
+    "Categoria": "",
+    "Precio": NaN,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71016",
+    "Producto": "TROCEADA DE VACUNO",
+    "Categoria": "",
+    "Precio": 9.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "71004",
+    "Producto": "FILETE VACUNO",
+    "Categoria": "CARNES DE RAZA",
+    "Precio": 9.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41011",
+    "Producto": "ALAS POLLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 1.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41016",
+    "Producto": "JAMONCITO POLLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 2.2,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41008",
+    "Producto": "PECHUGA POLLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 4.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41001",
+    "Producto": "POLLO ASADOR",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 2.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68029",
+    "Producto": "PICANTON CONGELADO",
+    "Categoria": "CARNES FRESCAS",
+    "Precio": 4.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41045",
+    "Producto": "TRASERO POLLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 2.35,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "14025",
+    "Producto": "CARRILADA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 13.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "19011",
+    "Producto": "OSOBUCO CORTADO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "15019",
+    "Producto": "RABO VACUNO CORTADO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 9.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "15015",
+    "Producto": "RABO VACUNO ENTERO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 9.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "30068",
+    "Producto": "PATATAS 3/8",
+    "Categoria": "CONGELADOS",
+    "Precio": 1.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "30024",
+    "Producto": "PATATAS BRAVAS",
+    "Categoria": "CONGELADOS",
+    "Precio": 2.45,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "30021",
+    "Producto": "PATATAS JULIANAS",
+    "Categoria": "CONGELADOS",
+    "Precio": 2.4,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12100",
+    "Producto": "HAMBURGUESA CERDO CONGELADA",
+    "Categoria": "CONGELADOS",
+    "Precio": 4.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41023",
+    "Producto": "HAMBURGUESA POLLO CONGELADA",
+    "Categoria": "CONGELADOS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "20319",
+    "Producto": "COLA LANGOSTINO 26/ 30",
+    "Categoria": "CONGELADOS",
+    "Precio": 9.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "20321",
+    "Producto": "COLA LANGOSTINO 31/35",
+    "Categoria": "CONGELADOS",
+    "Precio": 7.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "20322",
+    "Producto": "COLA LANGOSTINO 36/40",
+    "Categoria": "CONGELADOS",
+    "Precio": 7.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "20323",
+    "Producto": "COLA LANGOSTINO 41/50",
+    "Categoria": "CONGELADOS",
+    "Precio": 7.2,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "20324",
+    "Producto": "COLA LANGOSTINO 51/60",
+    "Categoria": "CONGELADOS",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "20156",
+    "Producto": "LANGOSTINO CON CABEZA 32/48",
+    "Categoria": "CONGELADOS",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12075",
+    "Producto": "CABEZAL",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12027",
+    "Producto": "CARRILLADA CERDO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12010",
+    "Producto": "CINTA LOMO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 4.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12032",
+    "Producto": "COSTILLA CORBATA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12066",
+    "Producto": "SECRETO BLANCO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12011",
+    "Producto": "SOLOMILLO CERDO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 6.3,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12019",
+    "Producto": "TROCEADA CERDO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 3.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12069",
+    "Producto": "PINCHITO CERDO CONG. PINCH. ",
+    "Categoria": "ELABORADOS",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12086",
+    "Producto": "CARRET COCHINILLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 18.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12101",
+    "Producto": "COCHINILLO ENTERO 3/4 KG (PRECIO PIEZA)",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 77.0,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12071",
+    "Producto": "COCHINILLO ENTERO 4/5 KG (PRECIO PIEZA)",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 79.0,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12018",
+    "Producto": "COCHINILLO ENTERO 5/6 KG (PRECIO PIEZA)",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 89.0,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12105",
+    "Producto": "COCHINILLO ENTERO 8/11 KG (PRECIO PIEZA)",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 92.0,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12085",
+    "Producto": "PALETILLA COCHINILLO 500GR.",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 18.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12084",
+    "Producto": "PIERNA COCHINILLO 600GR.",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 18.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "40001",
+    "Producto": "ALBONDIGAS DE POLLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 2.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "40081",
+    "Producto": "ALBONDIGAS DE POLLO VACUNO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 2.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "40085",
+    "Producto": "CROQUETAS CERDO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 2.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "40015",
+    "Producto": "CROQUETAS POLLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 2.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "40108",
+    "Producto": "FLAMENQUINES CERDO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 3.3,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "40078",
+    "Producto": "FLAMENQUINES POLLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 3.3,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "40025",
+    "Producto": "NUGGETS POLLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 3.4,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12062",
+    "Producto": "ABANICO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 15.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12073",
+    "Producto": "LAGARTO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 15.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12063",
+    "Producto": "PLUMA EXTRA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 20.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12064",
+    "Producto": "PLUMILLA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 16.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12056",
+    "Producto": "PRESA DUROC",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 12.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12065",
+    "Producto": "PRESA IBERICA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 19.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12067",
+    "Producto": "SECRETO EXTRA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 19.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12068",
+    "Producto": "SECRETO SEGUNDA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "12070",
+    "Producto": "SOLOMILLO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 16.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "11011",
+    "Producto": "CHULETAS CORDERO CORTADAS",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 17.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "11048",
+    "Producto": "FRENCH RACK N/Z",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 32.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "11010",
+    "Producto": "MOLLEJA CORDERO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 21.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "11004",
+    "Producto": "PALETILLA CORDERO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 13.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "11015",
+    "Producto": "PIERNA CORDERO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 13.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "11061",
+    "Producto": "SOLOMILLO CORDERO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 28.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75089",
+    "Producto": "COSTILLA SALADA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75017",
+    "Producto": "HUESO AÑEJO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 2.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75284",
+    "Producto": "PELLA IBERICA",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75014",
+    "Producto": "TOCINO AÑEJO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 4.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75016",
+    "Producto": "TOCINO IBÉRICO SALADO",
+    "Categoria": "CARNES CONGELADAS",
+    "Precio": 3.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75391",
+    "Producto": "BACON AHUMADO ENTERO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.35,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75001",
+    "Producto": "BACON FAMADESA LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 6.45,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75296",
+    "Producto": "BUTIFARRA BLANCA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75252",
+    "Producto": "CABEZA LOMO MECHADA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75007",
+    "Producto": "CALLOS CERDO BARRA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.2,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75079",
+    "Producto": "CAÑA DE LOMO IBERICA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 28.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75151",
+    "Producto": "CENTRO JAMON SERRANO S/H",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 12.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75044",
+    "Producto": "CHISTORRAS",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75030",
+    "Producto": "CHOPPED BEEF",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75212",
+    "Producto": "CHOPPED PAVO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.3,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75029",
+    "Producto": "CHOPPED PORK",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 2.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75043",
+    "Producto": "CHORIZO IBÉRICO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 11.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75373",
+    "Producto": "CHORIZO IBÉRICO LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 14.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75006",
+    "Producto": "CHORIZO MINI PICANTE",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75239",
+    "Producto": "CHORIZO PAVO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 9.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75040",
+    "Producto": "CHORIZO PAVO LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 11.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75142",
+    "Producto": "CHORIZO TIPO ROSARIO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75036",
+    "Producto": "CHORIZO VELA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75018",
+    "Producto": "CHULETERO SAJONIA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 7.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75062",
+    "Producto": "CINTA DE LOMO SAJONIA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 7.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75223",
+    "Producto": "FIAMBRE LOMO ADOBADO LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75281",
+    "Producto": "FIAMBRE LOMO CERDO ADOBADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.2,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75032",
+    "Producto": "FIAMBRE PALETA 11* 11",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75220",
+    "Producto": "FIAMBRE PALETA 11X11 LONCHEADA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75277",
+    "Producto": "FIAMBRE PAVO 11X11 LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75276",
+    "Producto": "FIAMBRE PECHUGA PAVO 11X11",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75053",
+    "Producto": "FIAMBRE PECHUGA PAVO MOLDE",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 6.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75034",
+    "Producto": "JAMÓN COCIDO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75302",
+    "Producto": "JAMÓN COCIDO 11X11",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75039",
+    "Producto": "JAMÓN COCIDO EXTRA LONCHEADO 500g",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 7.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75059",
+    "Producto": "JAMÓN IBÉRICO BELLOTA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 48.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75084",
+    "Producto": "JAMÓN IBÉRICO DE CEBO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 29.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75372",
+    "Producto": "JAMÓN IBÉRICO LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 69.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75019",
+    "Producto": "JAMÓN SERRANO LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 13.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "41111",
+    "Producto": "KEBAB POLLO LONCHEADO KEBAPSA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 8.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75146",
+    "Producto": "MORCILLA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75027",
+    "Producto": "MORTADELA ACEITUNAS",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.3,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75026",
+    "Producto": "MORTADELA ITALIANA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.3,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75063",
+    "Producto": "MORTADELA PAVO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75230",
+    "Producto": "POLLO RELLENO ASADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 7.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75022",
+    "Producto": "SALCHICHA INGLESA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.35,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75153",
+    "Producto": "BACK BACON",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75013",
+    "Producto": "MANTECA FUNDIDA DE CERDO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 2.95,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75033",
+    "Producto": "SALAMI",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75080",
+    "Producto": "SALCHICHA HOT DOG",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75005",
+    "Producto": "SALCHICHAS BRATWURST",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 4.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75275",
+    "Producto": "SALCHICHAS COCKTAIL",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75009",
+    "Producto": "SALCHICHAS FRANKFURT",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75254",
+    "Producto": "SALCHICHÓN DE MALAGA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 8.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75069",
+    "Producto": "SALCHICHÓN IBERICO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 11.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75238",
+    "Producto": "SALCHICHÓN PAVO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 9.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75035",
+    "Producto": "SALCHICHÓN VELA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.7,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75167",
+    "Producto": "TOPPING BACON",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 6.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75165",
+    "Producto": "TOPPING YORK",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 5.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "65307",
+    "Producto": "FUET",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75231",
+    "Producto": "QUESO BARRA EDAM",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 7.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75023",
+    "Producto": "QUESO EDAM LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 8.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75068",
+    "Producto": "QUESO GOUDA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 7.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75240",
+    "Producto": "QUESO GOUDA LONCHEADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 8.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75136",
+    "Producto": "QUESO CHEDDAR",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 7.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75226",
+    "Producto": "QUESO CURADO MEZCLA",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 11.5,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75050",
+    "Producto": "QUESO SEMI-CURADO",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 10.9,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "75100",
+    "Producto": "QUESO FETA LATA 4KG",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 32.8,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68068",
+    "Producto": "HUEVOS COCIDOS 70 UDS (PRECIO UNIDAD)",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 0.28,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67047",
+    "Producto": "HUEVOS ESTUCHADOS",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 2.35,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "68050",
+    "Producto": "HUEVO LIQUIDO 1L",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 3.55,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67116",
+    "Producto": "HUEVOS FRESCOS L",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 2.3,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67016",
+    "Producto": "HUEVOS FRESCOS M",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 2.2,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  },
+  {
+    "Codigo": "67117",
+    "Producto": "HUEVOS FRESCOS XL",
+    "Categoria": "CHARCUTERIA",
+    "Precio": 2.6,
+    "PrecioMinimo": "",
+    "Imagen": ""
+  }
+]
