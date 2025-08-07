@@ -34,7 +34,7 @@
           <select id="category-filter" class="border px-3 py-2 rounded">
             <option value="">Todas las categorías</option>
           </select>
-          <button id="generate-pdf-btn" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Generar PDF</button>
+          <button id="generate-pdf-btn" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Generar pedido</button>
         </div>
         <div class="overflow-x-auto">
           <table id="catalog-table" class="min-w-full bg-white border">
@@ -52,6 +52,29 @@
             <tbody id="catalog-body"></tbody>
           </table>
         </div>
+        <!-- Selected Items Section: displays selected products with quantity, packaging and observations -->
+        <div id="selected-section" class="hidden mt-6">
+          <h3 class="text-xl font-semibold mb-2">Productos seleccionados</h3>
+          <div class="overflow-x-auto">
+            <table id="selected-table" class="min-w-full bg-white border">
+              <thead class="bg-gray-200">
+                <tr>
+                  <th class="px-4 py-2 border">Código</th>
+                  <th class="px-4 py-2 border">Producto</th>
+                  <th class="px-4 py-2 border">Cantidad (kg)</th>
+                  <th class="px-4 py-2 border">Envasado</th>
+                  <th class="px-4 py-2 border">Observaciones</th>
+                  <th class="px-4 py-2 border">Precio (€/kg)</th>
+                </tr>
+              </thead>
+              <tbody id="selected-body"></tbody>
+            </table>
+          </div>
+          <div class="mt-2">
+            <label for="general-observaciones" class="block mb-1 font-medium">Observaciones generales del pedido:</label>
+            <textarea id="general-observaciones" class="border rounded w-full p-2" rows="3" placeholder="Observaciones..."></textarea>
+          </div>
+        </div>
       </div>
       <!-- Admin panel -->
       <div id="admin-view" class="hidden">
@@ -62,6 +85,13 @@
             <button id="import-csv-btn" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded ml-2">Importar CSV</button>
             <input type="file" id="import-csv-input" accept=".csv" class="hidden" />
           </div>
+        </div>
+        <!-- Horario de pedidos -->
+        <div class="mt-4">
+          <h4 class="text-lg font-semibold mb-2">Horario de pedidos</h4>
+          <label class="mr-2">Inicio:</label><input type="time" id="order-start-time" class="border px-2 py-1 rounded mr-4" />
+          <label class="mr-2">Fin:</label><input type="time" id="order-end-time" class="border px-2 py-1 rounded mr-4" />
+          <button id="save-time-btn" class="bg-purple-500 hover:bg-purple-600 text-white px-3 py-1 rounded">Guardar horario</button>
         </div>
         <div class="overflow-x-auto">
           <table id="admin-table" class="min-w-full bg-white border">
@@ -92,11 +122,66 @@
     // State
     let currentUserRole = null;
     let selectedItems = [];
+    // Additional details for each selected product (quantity, packaging, observations, and price)
+    const selectedDetails = {};
+    // Default order time window (HH:MM). Can be modified by admin.
+    let orderStartTime = '06:00';
+    let orderEndTime = '23:59';
 
-    // Populate category filter on page load
+    // Populate category filter and load settings on page load
     window.addEventListener('DOMContentLoaded', () => {
       populateCategoryFilter();
+      // Load saved order hours and update inputs
+      if (typeof loadSettings === 'function') {
+        loadSettings();
+      }
+      // Fetch updated product data from JSON file if available
+      fetch('products_data.json')
+        .then(res => res.json())
+        .then(data => {
+          // Replace contents of products array without changing its reference
+          products.splice(0, products.length, ...data);
+          // Repopulate category filter options
+          const filterElem = document.getElementById('category-filter');
+          if (filterElem) {
+            filterElem.innerHTML = '<option value="">Todas las categorías</option>';
+          }
+          populateCategoryFilter();
+          // Re-render appropriate views if already logged in
+          if (currentUserRole === 'admin') {
+            renderAdminTable();
+          } else if (currentUserRole === 'commercial') {
+            renderCatalogTable();
+            renderSelectedTable();
+          }
+        })
+        .catch(() => {
+          // If fetch fails, keep initial dataset
+          populateCategoryFilter();
+        });
     });
+
+    // Load order hours from localStorage and update the corresponding input fields (if present)
+    function loadSettings() {
+      const savedStart = localStorage.getItem('orderStartTime');
+      const savedEnd = localStorage.getItem('orderEndTime');
+      if (savedStart) orderStartTime = savedStart;
+      if (savedEnd) orderEndTime = savedEnd;
+      const startInput = document.getElementById('order-start-time');
+      const endInput = document.getElementById('order-end-time');
+      if (startInput && orderStartTime) startInput.value = orderStartTime;
+      if (endInput && orderEndTime) endInput.value = orderEndTime;
+    }
+
+    // Convert a Google Drive share link to a direct image link. If the URL is not a Drive link, returns the original.
+    function getImageUrl(url) {
+      if (!url) return '';
+      const match = url.match(/\/d\/([^/]+)/);
+      if (match && match[1]) {
+        return `https://drive.google.com/uc?export=view&id=${match[1]}`;
+      }
+      return url;
+    }
 
     // Populate category filter dropdown
     function populateCategoryFilter() {
@@ -156,14 +241,27 @@
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.dataset.index = index;
+        // Keep checkbox checked state in sync with selected items
+        checkbox.checked = selectedItems.includes(index);
         checkbox.addEventListener('change', (e) => {
           const i = parseInt(e.target.dataset.index);
           const existingIndex = selectedItems.indexOf(i);
           if (e.target.checked && existingIndex === -1) {
             selectedItems.push(i);
+            // initialize default details for new selection
+            if (!selectedDetails[i]) {
+              selectedDetails[i] = {
+                cantidad: 1,
+                envasado: 'Fresco',
+                obs: '',
+                nuevoPrecio: product.NuevoPrecio || product.Precio
+              };
+            }
           } else if (!e.target.checked && existingIndex !== -1) {
             selectedItems.splice(existingIndex, 1);
+            delete selectedDetails[i];
           }
+          renderSelectedTable();
         });
         tdSelect.appendChild(checkbox);
         tr.appendChild(tdSelect);
@@ -213,7 +311,7 @@
         tdImg.className = 'border px-4 py-2';
         if (product.Imagen) {
           const img = document.createElement('img');
-          img.src = product.Imagen;
+          img.src = getImageUrl(product.Imagen);
           img.alt = product.Producto;
           img.className = 'w-16 h-16 object-cover';
           tdImg.appendChild(img);
@@ -221,6 +319,103 @@
           tdImg.textContent = '-';
         }
         tr.appendChild(tdImg);
+        tbody.appendChild(tr);
+      });
+      // After rendering catalog, update selected items section
+      renderSelectedTable();
+    }
+
+    // Render selected items table (cart) for commercial view
+    function renderSelectedTable() {
+      const section = document.getElementById('selected-section');
+      const tbody = document.getElementById('selected-body');
+      if (!section || !tbody) return;
+      tbody.innerHTML = '';
+      if (selectedItems.length === 0) {
+        section.classList.add('hidden');
+        return;
+      }
+      section.classList.remove('hidden');
+      selectedItems.forEach((i) => {
+        const prod = products[i];
+        const det = selectedDetails[i] || { cantidad: 1, envasado: 'Fresco', obs: '', nuevoPrecio: prod.Precio };
+        const tr = document.createElement('tr');
+        // Código
+        const tdCodigo = document.createElement('td');
+        tdCodigo.className = 'border px-4 py-2';
+        tdCodigo.textContent = prod.Codigo;
+        tr.appendChild(tdCodigo);
+        // Producto
+        const tdProducto = document.createElement('td');
+        tdProducto.className = 'border px-4 py-2';
+        tdProducto.textContent = prod.Producto;
+        tr.appendChild(tdProducto);
+        // Cantidad
+        const tdCant = document.createElement('td');
+        tdCant.className = 'border px-4 py-2';
+        const inputCant = document.createElement('input');
+        inputCant.type = 'number';
+        inputCant.step = '0.01';
+        inputCant.min = '0';
+        inputCant.value = det.cantidad;
+        inputCant.className = 'border rounded px-2 py-1 w-full';
+        inputCant.addEventListener('change', (e) => {
+          const val = parseFloat(e.target.value) || 0;
+          selectedDetails[i].cantidad = val;
+        });
+        tdCant.appendChild(inputCant);
+        tr.appendChild(tdCant);
+        // Envasado
+        const tdEnv = document.createElement('td');
+        tdEnv.className = 'border px-4 py-2';
+        const selectEnv = document.createElement('select');
+        selectEnv.className = 'border rounded px-2 py-1 w-full';
+        ['Vacío', 'Granel', 'Congelado', 'Fresco'].forEach((opt) => {
+          const option = document.createElement('option');
+          option.value = opt;
+          option.textContent = opt;
+          if (det.envasado === opt) option.selected = true;
+          selectEnv.appendChild(option);
+        });
+        selectEnv.addEventListener('change', (e) => {
+          selectedDetails[i].envasado = e.target.value;
+        });
+        tdEnv.appendChild(selectEnv);
+        tr.appendChild(tdEnv);
+        // Observaciones
+        const tdObs = document.createElement('td');
+        tdObs.className = 'border px-4 py-2';
+        const inputObs = document.createElement('input');
+        inputObs.type = 'text';
+        inputObs.value = det.obs;
+        inputObs.className = 'border rounded px-2 py-1 w-full';
+        inputObs.placeholder = 'Observaciones';
+        inputObs.addEventListener('input', (e) => {
+          selectedDetails[i].obs = e.target.value;
+        });
+        tdObs.appendChild(inputObs);
+        tr.appendChild(tdObs);
+        // Precio por kg
+        const tdPrice = document.createElement('td');
+        tdPrice.className = 'border px-4 py-2';
+        const inputPrice = document.createElement('input');
+        inputPrice.type = 'number';
+        inputPrice.step = '0.01';
+        inputPrice.min = prod.PrecioMinimo || prod.Precio;
+        inputPrice.value = det.nuevoPrecio;
+        inputPrice.className = 'border rounded px-2 py-1 w-full';
+        inputPrice.addEventListener('change', (e) => {
+          const val = parseFloat(e.target.value);
+          const min = parseFloat(inputPrice.min);
+          if (val < min) {
+            inputPrice.classList.add('bg-red-200');
+          } else {
+            inputPrice.classList.remove('bg-red-200');
+            selectedDetails[i].nuevoPrecio = val;
+          }
+        });
+        tdPrice.appendChild(inputPrice);
+        tr.appendChild(tdPrice);
         tbody.appendChild(tr);
       });
     }
@@ -312,15 +507,26 @@
           const checkbox = document.createElement('input');
           checkbox.type = 'checkbox';
           checkbox.dataset.index = index;
+          // Keep checkbox state consistent with selected items
           checkbox.checked = selectedItems.includes(index);
           checkbox.addEventListener('change', (e) => {
             const i = parseInt(e.target.dataset.index);
             const existingIndex = selectedItems.indexOf(i);
             if (e.target.checked && existingIndex === -1) {
               selectedItems.push(i);
+              if (!selectedDetails[i]) {
+                selectedDetails[i] = {
+                  cantidad: 1,
+                  envasado: 'Fresco',
+                  obs: '',
+                  nuevoPrecio: product.NuevoPrecio || product.Precio
+                };
+              }
             } else if (!e.target.checked && existingIndex !== -1) {
               selectedItems.splice(existingIndex, 1);
+              delete selectedDetails[i];
             }
+            renderSelectedTable();
           });
           tdSelect.appendChild(checkbox);
           tr.appendChild(tdSelect);
@@ -370,7 +576,7 @@
           tdImg.className = 'border px-4 py-2';
           if (product.Imagen) {
             const img = document.createElement('img');
-            img.src = product.Imagen;
+            img.src = getImageUrl(product.Imagen);
             img.alt = product.Producto;
             img.className = 'w-16 h-16 object-cover';
             tdImg.appendChild(img);
@@ -381,40 +587,97 @@
           tbody.appendChild(tr);
         }
       });
+      // Ensure selected items section reflects current selections after filtering
+      renderSelectedTable();
     }
 
-    // PDF generation
+    // PDF generation: crea un documento detallado con cantidades, envasado y observaciones
     document.getElementById('generate-pdf-btn').addEventListener('click', () => {
       if (selectedItems.length === 0) {
         alert('No hay productos seleccionados.');
         return;
       }
+      // Determinar si el pedido es para el día siguiente según la franja horaria configurada
+      const now = new Date();
+      const currentTimeStr = now.toTimeString().slice(0, 5);
+      const fueraHorario = (currentTimeStr < orderStartTime || currentTimeStr > orderEndTime);
       const { jsPDF } = window.jspdf;
       const doc = new jsPDF();
-      const dateStr = new Date().toLocaleDateString('es-ES');
+      // Cabecera
       doc.setFontSize(14);
-      doc.text('Presupuesto DACRISA', 20, 20);
+      doc.text('Pedido DACRISA', 20, 20);
       doc.setFontSize(10);
-      doc.text(`Fecha: ${dateStr}`, 20, 28);
-      // Table header
-      doc.text('Código', 20, 40);
-      doc.text('Producto', 50, 40);
-      doc.text('Precio', 140, 40);
+      const dateTimeStr = now.toLocaleString('es-ES');
+      doc.text(`Fecha y hora: ${dateTimeStr}`, 20, 28);
+      if (fueraHorario) {
+        doc.setTextColor(220, 20, 60);
+        doc.text('Nota: pedido para día siguiente', 20, 35);
+        doc.setTextColor(0, 0, 0);
+      }
+      // Encabezados de tabla
       let yPos = 45;
-      selectedItems.forEach(i => {
+      doc.text('Código', 10, yPos);
+      doc.text('Producto', 35, yPos);
+      doc.text('Kg', 100, yPos);
+      doc.text('Tipo', 115, yPos);
+      doc.text('€/kg', 140, yPos);
+      doc.text('Total', 160, yPos);
+      yPos += 5;
+      let totalGeneral = 0;
+      selectedItems.forEach((i) => {
         const prod = products[i];
-        const price = prod.NuevoPrecio || prod.Precio;
-        doc.text(String(prod.Codigo), 20, yPos);
-        doc.text(String(prod.Producto), 50, yPos);
-        doc.text(String(price), 140, yPos);
-        yPos += 7;
+        const det = selectedDetails[i];
+        const cantidad = det && det.cantidad ? det.cantidad : 0;
+        const precioUnitario = det && det.nuevoPrecio ? det.nuevoPrecio : prod.Precio;
+        const subtotal = cantidad * precioUnitario;
+        totalGeneral += subtotal;
+        doc.text(String(prod.Codigo), 10, yPos);
+        doc.text(String(prod.Producto).substring(0, 25), 35, yPos);
+        doc.text(String(cantidad), 100, yPos);
+        doc.text(det.envasado || 'Fresco', 115, yPos);
+        doc.text(precioUnitario.toFixed(2), 140, yPos);
+        doc.text(subtotal.toFixed(2), 160, yPos);
+        yPos += 5;
         if (yPos > 280) {
           doc.addPage();
           yPos = 20;
         }
       });
-      doc.save('presupuesto.pdf');
+      // Observaciones generales
+      yPos += 5;
+      const obsGenElem = document.getElementById('general-observaciones');
+      const obsGen = obsGenElem ? obsGenElem.value : '';
+      if (obsGen) {
+        doc.setFontSize(10);
+        doc.text('Observaciones generales:', 10, yPos);
+        yPos += 5;
+        const lines = doc.splitTextToSize(obsGen, 180);
+        doc.text(lines, 10, yPos);
+        yPos += lines.length * 5;
+      }
+      // Total
+      doc.setFontSize(12);
+      doc.text(`Total: ${totalGeneral.toFixed(2)} €`, 10, yPos + 5);
+      doc.save('pedido.pdf');
     });
+
+    // Permitir al administrador guardar la franja horaria de pedidos
+    (function() {
+      const saveBtn = document.getElementById('save-time-btn');
+      if (saveBtn) {
+        saveBtn.addEventListener('click', () => {
+          const startVal = document.getElementById('order-start-time').value;
+          const endVal = document.getElementById('order-end-time').value;
+          if (startVal && endVal) {
+            orderStartTime = startVal;
+            orderEndTime = endVal;
+            localStorage.setItem('orderStartTime', orderStartTime);
+            localStorage.setItem('orderEndTime', orderEndTime);
+            alert('Horario guardado correctamente');
+          }
+        });
+      }
+    })();
 
     // Export CSV for admin
     document.getElementById('export-csv-btn').addEventListener('click', () => {
@@ -503,8 +766,11 @@
         }
         // Replace the contents of the products array; keep the same reference
         products.splice(0, products.length, ...newProducts);
-        // Clear any previously selected items
+        // Clear any previously selected items and details
         selectedItems = [];
+        for (const key in selectedDetails) {
+          delete selectedDetails[key];
+        }
         // Repopulate the category filter
         const filterElem = document.getElementById('category-filter');
         filterElem.innerHTML = '<option value="">Todas las categorías</option>';
