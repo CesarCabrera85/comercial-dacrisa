@@ -13,13 +13,25 @@
   <div id="app" class="container mx-auto p-4">
     <!-- Login Screen -->
     <div id="login-screen" class="max-w-md mx-auto bg-white shadow-md rounded p-6 mt-10">
-      <h1 class="text-2xl font-bold mb-4 text-center">Acceso al catálogo DACRISA</h1>
+      <!-- Logo de la aplicación -->
+      <img src="LOGO DACRISA PLUS.svg" alt="DACRISA PLUS" class="mx-auto mb-4 w-32" />
+      <h1 class="text-2xl font-bold mb-4 text-center" style="color:#ff0000">DACRISA&nbsp;PLUS</h1>
       <label for="access-key" class="block mb-2 font-medium">Introduce tu clave de acceso:</label>
       <input type="text" id="access-key" class="w-full border rounded px-3 py-2 mb-4" placeholder="Clave única" />
-      <button id="login-btn" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+      <button id="login-btn" class="w-full text-black font-semibold py-2 px-4 rounded" style="background-color:#ffff00">
         Entrar
       </button>
       <p id="login-error" class="text-red-500 mt-2 hidden">Clave incorrecta. Intenta de nuevo.</p>
+    </div>
+
+    <!-- Client Selection Screen -->
+    <div id="client-select-screen" class="hidden max-w-md mx-auto bg-white shadow-md rounded p-6 mt-10">
+      <h2 class="text-xl font-bold mb-4 text-center">Seleccionar cliente</h2>
+      <p class="mb-2">Elige un cliente para el pedido. Mientras no esté conectada la base de datos del ERP podrás seleccionar un cliente genérico.</p>
+      <select id="client-select" class="border rounded w-full p-2 mb-4">
+        <option value="generico">Cliente genérico</option>
+      </select>
+      <button id="client-continue-btn" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Continuar</button>
     </div>
     <!-- Main Content (hidden until login) -->
     <div id="main-content" class="hidden">
@@ -29,50 +41,42 @@
       </div>
       <!-- Catalog for commercial users -->
       <div id="commercial-view" class="hidden">
+        <!-- Buscador y filtros -->
         <div class="mb-4 grid grid-cols-1 md:grid-cols-3 gap-4">
           <input type="text" id="search-input" class="border px-3 py-2 rounded" placeholder="Buscar por código, producto, categoría o precio" />
           <select id="category-filter" class="border px-3 py-2 rounded">
             <option value="">Todas las categorías</option>
           </select>
-          <button id="generate-pdf-btn" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Generar pedido</button>
+          <button id="generate-pdf-btn" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Confirmar pedido</button>
         </div>
-        <div class="overflow-x-auto">
-          <table id="catalog-table" class="min-w-full bg-white border">
-            <thead class="bg-gray-200">
-              <tr>
-                <th class="px-4 py-2 border">Seleccionar</th>
-                <th class="px-4 py-2 border">Código</th>
-                <th class="px-4 py-2 border">Producto</th>
-                <th class="px-4 py-2 border">Categoría</th>
-                <th class="px-4 py-2 border">Precio</th>
-                <th class="px-4 py-2 border">Nuevo precio</th>
-                <th class="px-4 py-2 border">Imagen</th>
-              </tr>
-            </thead>
-            <tbody id="catalog-body"></tbody>
-          </table>
-        </div>
-        <!-- Selected Items Section: displays selected products with quantity, packaging and observations -->
-        <div id="selected-section" class="hidden mt-6">
-          <h3 class="text-xl font-semibold mb-2">Productos seleccionados</h3>
-          <div class="overflow-x-auto">
-            <table id="selected-table" class="min-w-full bg-white border">
-              <thead class="bg-gray-200">
-                <tr>
-                  <th class="px-4 py-2 border">Código</th>
-                  <th class="px-4 py-2 border">Producto</th>
-                  <th class="px-4 py-2 border">Cantidad (kg)</th>
-                  <th class="px-4 py-2 border">Envasado</th>
-                  <th class="px-4 py-2 border">Observaciones</th>
-                  <th class="px-4 py-2 border">Precio (€/kg)</th>
-                </tr>
-              </thead>
-              <tbody id="selected-body"></tbody>
-            </table>
+        <!-- Contenedor principal con catálogo y pedido en curso -->
+        <div class="flex flex-col md:flex-row">
+          <!-- Catálogo de productos -->
+          <div class="flex-1">
+            <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
           </div>
-          <div class="mt-2">
-            <label for="general-observaciones" class="block mb-1 font-medium">Observaciones generales del pedido:</label>
-            <textarea id="general-observaciones" class="border rounded w-full p-2" rows="3" placeholder="Observaciones..."></textarea>
+          <!-- Sección de productos seleccionados -->
+          <div id="selected-section" class="hidden md:w-1/3 md:ml-4 mt-4 md:mt-0">
+            <h3 class="text-xl font-semibold mb-2">Productos seleccionados</h3>
+            <div class="overflow-x-auto">
+              <table id="selected-table" class="min-w-full bg-white border">
+                <thead class="bg-gray-200">
+                  <tr>
+                    <th class="px-4 py-2 border">Código</th>
+                    <th class="px-4 py-2 border">Producto</th>
+                    <th class="px-4 py-2 border">Cantidad</th>
+                    <th class="px-4 py-2 border">Preparación/Envasado</th>
+                    <th class="px-4 py-2 border">Observaciones</th>
+                    <th class="px-4 py-2 border">Precio (€/kg)</th>
+                  </tr>
+                </thead>
+                <tbody id="selected-body"></tbody>
+              </table>
+            </div>
+            <div class="mt-2">
+              <label for="general-observaciones" class="block mb-1 font-medium">Observaciones generales del pedido:</label>
+              <textarea id="general-observaciones" class="border rounded w-full p-2" rows="3" placeholder="Observaciones..."></textarea>
+            </div>
           </div>
         </div>
       </div>
@@ -124,6 +128,8 @@
     let selectedItems = [];
     // Additional details for each selected product (quantity, packaging, observations, and price)
     const selectedDetails = {};
+    // Selected client (generic by default)
+    let selectedClient = null;
     // Default order time window (HH:MM). Can be modified by admin.
     let orderStartTime = '06:00';
     let orderEndTime = '23:59';
@@ -209,11 +215,14 @@
       } else if (commercialKeys.includes(key)) {
         currentUserRole = 'commercial';
         document.getElementById('welcome-msg').textContent = 'Bienvenido, Comercial';
+        // Oculta la pantalla de inicio de sesión y muestra la selección de cliente
         document.getElementById('login-screen').classList.add('hidden');
+        document.getElementById('login-error').classList.add('hidden');
         document.getElementById('main-content').classList.remove('hidden');
-        document.getElementById('commercial-view').classList.remove('hidden');
+        // Mostrar selector de cliente y ocultar vistas de catálogo
+        document.getElementById('client-select-screen').classList.remove('hidden');
+        document.getElementById('commercial-view').classList.add('hidden');
         document.getElementById('admin-view').classList.add('hidden');
-        renderCatalogTable();
       } else {
         document.getElementById('login-error').classList.remove('hidden');
       }
@@ -227,6 +236,23 @@
       document.getElementById('login-screen').classList.remove('hidden');
       document.getElementById('main-content').classList.add('hidden');
       document.getElementById('login-error').classList.add('hidden');
+      // Hide client selection screen and reset selected client
+      const clientScreen = document.getElementById('client-select-screen');
+      if (clientScreen) clientScreen.classList.add('hidden');
+      selectedClient = null;
+    });
+
+    // Client selection handler: once a client is chosen, show the catalog
+    document.getElementById('client-continue-btn').addEventListener('click', () => {
+      const selectElem = document.getElementById('client-select');
+      selectedClient = selectElem ? selectElem.value : 'generico';
+      // hide selector and show commercial view
+      document.getElementById('client-select-screen').classList.add('hidden');
+      document.getElementById('commercial-view').classList.remove('hidden');
+      // Reset selected items and details
+      selectedItems = [];
+      for (const key in selectedDetails) delete selectedDetails[key];
+      renderCatalogGrid();
     });
 
     // Render catalog table for commercial users
@@ -325,6 +351,90 @@
       renderSelectedTable();
     }
 
+    // Render product catalog as a grid of cards for commercial users
+    function renderCatalogGrid() {
+      const grid = document.getElementById('product-grid');
+      if (!grid) return;
+      grid.innerHTML = '';
+      const searchTerm = document.getElementById('search-input').value.toLowerCase();
+      const selectedCategory = document.getElementById('category-filter').value;
+      products.forEach((product, index) => {
+        // Evaluate search and category filters
+        const matchesSearch = product.Codigo.toLowerCase().includes(searchTerm) ||
+          product.Producto.toLowerCase().includes(searchTerm) ||
+          (product.Categoria || '').toLowerCase().includes(searchTerm) ||
+          String(product.Precio).toLowerCase().includes(searchTerm);
+        const matchesCategory = !selectedCategory || product.Categoria === selectedCategory;
+        if (!matchesSearch || !matchesCategory) return;
+        // Card container
+        const card = document.createElement('div');
+        card.className = 'bg-white border rounded shadow p-4 flex flex-col';
+        // Image
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'h-32 flex items-center justify-center mb-2';
+        if (product.Imagen) {
+          const img = document.createElement('img');
+          img.src = getImageUrl(product.Imagen);
+          img.alt = product.Producto;
+          img.className = 'h-32 w-full object-cover';
+          imgContainer.appendChild(img);
+        } else {
+          const placeholder = document.createElement('div');
+          placeholder.className = 'h-32 w-full bg-gray-200 flex items-center justify-center text-gray-500';
+          placeholder.textContent = 'Sin imagen';
+          imgContainer.appendChild(placeholder);
+        }
+        card.appendChild(imgContainer);
+        // Nombre del producto
+        const nameEl = document.createElement('h4');
+        nameEl.className = 'font-semibold text-sm';
+        nameEl.textContent = product.Producto;
+        card.appendChild(nameEl);
+        // Categoría
+        const catEl = document.createElement('p');
+        catEl.className = 'text-xs text-gray-500';
+        catEl.textContent = product.Categoria || '';
+        card.appendChild(catEl);
+        // Precio
+        const priceEl = document.createElement('p');
+        priceEl.className = 'mt-1 font-bold';
+        priceEl.textContent = `€ ${product.Precio.toFixed(2)}/kg`;
+        card.appendChild(priceEl);
+        // Botón añadir
+        const addBtn = document.createElement('button');
+        const alreadySelected = selectedItems.includes(index);
+        addBtn.className = 'mt-3 px-3 py-1 rounded text-white';
+        if (alreadySelected) {
+          addBtn.textContent = 'Añadido';
+          addBtn.classList.add('bg-gray-400');
+          addBtn.disabled = true;
+        } else {
+          addBtn.textContent = 'Añadir al pedido';
+          addBtn.classList.add('bg-blue-500','hover:bg-blue-600');
+          addBtn.addEventListener('click', () => {
+            if (!selectedItems.includes(index)) {
+              selectedItems.push(index);
+              // Initialize default details for new selection
+              if (!selectedDetails[index]) {
+                selectedDetails[index] = {
+                  cantidad: 1,
+                  envasado: 'En una pieza',
+                  obs: '',
+                  nuevoPrecio: product.NuevoPrecio || product.Precio
+                };
+              }
+              renderSelectedTable();
+              renderCatalogGrid();
+            }
+          });
+        }
+        card.appendChild(addBtn);
+        grid.appendChild(card);
+      });
+      // Refresh selected table after filtering
+      renderSelectedTable();
+    }
+
     // Render selected items table (cart) for commercial view
     function renderSelectedTable() {
       const section = document.getElementById('selected-section');
@@ -338,7 +448,7 @@
       section.classList.remove('hidden');
       selectedItems.forEach((i) => {
         const prod = products[i];
-        const det = selectedDetails[i] || { cantidad: 1, envasado: 'Fresco', obs: '', nuevoPrecio: prod.Precio };
+        const det = selectedDetails[i] || { cantidad: 1, envasado: 'En una pieza', obs: '', nuevoPrecio: prod.Precio };
         const tr = document.createElement('tr');
         // Código
         const tdCodigo = document.createElement('td');
@@ -370,7 +480,7 @@
         tdEnv.className = 'border px-4 py-2';
         const selectEnv = document.createElement('select');
         selectEnv.className = 'border rounded px-2 py-1 w-full';
-        ['Vacío', 'Granel', 'Congelado', 'Fresco'].forEach((opt) => {
+        ['Fileteado (2 cm)', 'En una pieza', 'Tacos para guiso', 'Al vacío', 'Bandeja filmada', 'Paquetes de 500g', 'Fresco', 'Congelado'].forEach((opt) => {
           const option = document.createElement('option');
           option.value = opt;
           option.textContent = opt;
@@ -484,9 +594,21 @@
       });
     }
 
-    // Handle search and filter for commercial view
-    document.getElementById('search-input').addEventListener('input', filterCatalog);
-    document.getElementById('category-filter').addEventListener('change', filterCatalog);
+    // Handle search and filter: render grid for comerciales, fallback to table for admin
+    document.getElementById('search-input').addEventListener('input', () => {
+      if (currentUserRole === 'commercial') {
+        renderCatalogGrid();
+      } else {
+        filterCatalog();
+      }
+    });
+    document.getElementById('category-filter').addEventListener('change', () => {
+      if (currentUserRole === 'commercial') {
+        renderCatalogGrid();
+      } else {
+        filterCatalog();
+      }
+    });
 
     function filterCatalog() {
       const searchTerm = document.getElementById('search-input').value.toLowerCase();
